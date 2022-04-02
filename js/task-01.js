@@ -11,3 +11,4 @@ itemClassEl.forEach(function (el, index, array) {
     const elementsList = el.lastElementChild;
     const countOfElements = elementsList.children.length;
     console.log(`Elements: ${countOfElements}`);
+});
